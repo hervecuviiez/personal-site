@@ -33,6 +33,31 @@ body {
     margin-bottom: 0.5rem;
 }
 
+/* New rule for the container holding the image and name */
+.profile-header-container {
+    display: flex; /* Enable Flexbox layout */
+    align-items: center; /* Vertically center the image and the text */
+    justify-content: center; /* Horizontally center the entire block */
+    gap: 15px; /* Add some space between the image and the name */
+    margin-bottom: 10px; /* Space below the name/image block */
+}
+
+/* Style the image */
+.profile-pic {
+    width: 80px; /* Set the size of the image */
+    height: 80px; /* Keep it square */
+    border-radius: 50%; /* Makes the image perfectly circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border: 2px solid var(--text-color); /* Optional: A small border around the picture */
+}
+
+/* Adjust the H1 to remove its default margin, which often clashes with Flexbox */
+.profile-header-container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0; /* Remove default margin so it aligns better with the picture */
+}
+
 .tagline {
     font-size: 1.1rem;
     font-weight: 400;
