@@ -120,6 +120,19 @@ body {
     max-width: 450px; /* Optionally constrain card width for better aesthetics */
 }
 
+/* 6. X Feed Section Style */
+.x-feed-section {
+    margin: 40px 0; /* Add vertical space around the feed */
+    padding: 20px 0;
+}
+
+.x-feed-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 25px; /* Space below the header, above the feed */
+    border-top: 1px solid var(--light-gray);
+    padding-top: 20px;
+}
+
 /* 5. Links Section */
 .links-section h2 {
     margin-top: 40px;
